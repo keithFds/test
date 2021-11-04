@@ -1,0 +1,322 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-image: url("rwdrGHO.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heading{
+    transform: translateX(5px);
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+li{
+    padding: 0 105px;
+}
+
+li:hover{
+    background-color:grey;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.grid1, .grid2, .grid3,
+.grid4, .grid5{
+    height: 82%;
+    overflow-y: scroll;
+    position: absolute;
+    width: 100%;
+}
+
+.grid2{
+    display: none;
+}
+
+.pic{
+    width: 100%;
+    height: 350px;
+    cursor: pointer;
+    border: 3px solid black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p1{
+    background-image: url("images/balls.jpg");
+}
+
+.p2{
+    background-image: url("images/en1.jpg");
+}
+
+.p3{
+    background-image: url("images/space-hero.jpg");
+}
+
+.p4{
+    background-image: url("images/finance.jpg");
+}
+
+.p5{
+    background-image: url("images/world.jpg");
+}
+
+.p6{
+    background-image: url("images/football.jpg");
+}
+
+.p7{
+    background-image: url("images/eng.jpg");
+}
+
+.p8{
+    background-image: url("images/cricket.jpg");
+}
+
+.p9{
+    background-image: url("images/dna.jpg");
+}
+
+.s1{
+    background-image: url("images/sport1.jpg");
+}
+
+.s2{
+    background-image: url("images/sport2.jpg");
+}
+
+.s3{
+    background-image: url("images/sport3.jpg");
+}
+
+.s4{
+    background-image: url("images/sport4.jpg");
+}
+
+.s5{
+    background-image: url("images/sport5.jpg");
+}
+
+.s6{
+    background-image: url("images/sport6.jpg");
+}
+
+.s7{
+    background-image: url("images/sport7.jpg");
+}
+
+.s8{
+    background-image: url("images/cricket.jpg");
+}
+
+.s9{
+    background-image: url("images/balls.jpg");
+}
+
+.pl1{
+    background-image: url("images/politics1.jpg");
+}
+
+.pl2{
+    background-image: url("images/politics2.jpg");
+}
+
+.pl3{
+    background-image: url("images/politics3.jpg");
+}
+
+.pl4{
+    background-image: url("images/politics4.jpg");
+}
+
+.pl5{
+    background-image: url("images/politics5.jpg");
+}
+
+.pl6{
+    background-image: url("images/politics6.jpg");
+}
+
+.pl7{
+    background-image: url("images/politics7.jpg");
+}
+
+.pl8{
+    background-image: url("images/politics8.jpg");
+}
+
+.pl9{
+    background-image: url("images/politics1.jpg");
+}
+
+.et1{
+    background-image: url("images/enter1.jpg");
+}
+
+.et2{
+    background-image: url("images/enter2.jpg");
+}
+
+.et3{
+    background-image: url("images/enter3.jpg");
+}
+
+.et4{
+    background-image: url("images/enter4.jpg");
+}
+
+.et5{
+    background-image: url("images/enter5.jpg");
+}
+
+.et6{
+    background-image: url("images/enter6.jpg");
+}
+
+.et7{
+    background-image: url("images/enter7.jpg");
+}
+
+.et8{
+    background-image: url("images/enter8.jpg");
+}
+
+.et9{
+    background-image: url("images/en1.jpg");
+}
+
+.w1{
+    background-image: url("images/world1.jpg");
+}
+
+.w2{
+    background-image: url("images/world2.jpg");
+}
+
+.w3{
+    background-image: url("images/world3.jpg");
+}
+
+.w4{
+    background-image: url("images/world4.jpg");
+}
+
+.w5{
+    background-image: url("images/world5.jpg");
+}
+
+.w6{
+    background-image: url("images/world6.jpg");
+}
+
+.w7{
+    background-image: url("images/world7.jpg");
+}
+
+.w8{
+    background-image: url("images/world8.jpg");
+}
+
+.w9{
+    background-image: url("images/world.jpg");
+}
+
+.data{
+    width: 100%;
+    opacity: 0.9;
+    margin-top: 150px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    background-color: white;
+}
+
+
+
+.data p{
+    padding: 10px 5px;
+    display: none;
+}
+
+.data h5{
+    transform: translate(30px, 12px);
+    position: absolute;
+}
+
+.data h6{
+    transform: translate(200px, 5px);
+    width: 70px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.data h6:hover{
+    background-color: blue;
+    color: white;
+}
+
+.extra{
+    width: 100%;
+    height: 82%;
+    background-color:white;
+    overflow-y: scroll;
+    display: none;
+}
+
+.enlarge{
+    width: 50%;
+    height: 80%;
+    transform: translate(10%, 10%);
+    border: 3px solid black;
+    box-shadow: 10px 10px 5px;
+}
+
+.enlarge img{
+    width: 100%;
+    height: 100%;
+}
+
+.extra h1{
+    width: 30%;
+    height: 50%;
+    transform: translate(200%, -125%);
+    position: relative;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.extra p{
+    position: relative;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.extra h6{
+    width: 70px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    transform: translate(1300px, 50px);
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
+
+.extra h6:hover{
+    width: 100px;
+    transition: width 0.5s;
+}
